@@ -2,14 +2,14 @@ body {
     background-image: url("bg.png");
     font-family: sans-serif;
     font-size: small;
-    text-align: center;;
+    text-align: center;
 }
 
 .nav {
     position: sticky;
     position: absolute;
     top: 4px;
-    right: 132px;
+    right: 8%;
     font-size: 18px;
     padding: 5px;
     background-color: #a9bdf5;
@@ -18,7 +18,7 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-section {
+nav, section {
     Width: 800px;
     margin: auto;
 }
@@ -27,7 +27,6 @@ a {
     text-decoration: none !important;
     color: #000000;
 }
-
 
 .btn {
     border: none;
