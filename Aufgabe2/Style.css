@@ -5,11 +5,10 @@ body {
     text-align: center;
 }
 
-.nav {
-    position: sticky;
-    position: absolute;
-    top: 4px;
-    right: 8%;
+nav {
+    position: fixed;
+    top: 7px;
+    right: 8.5%;
     font-size: 18px;
     padding: 5px;
     background-color: #a9bdf5;
@@ -18,8 +17,21 @@ body {
     border-bottom-right-radius: 10px;
 }
 
-nav, section {
-    Width: 800px;
+.icon {
+    position: absolute;
+    top: 135px;
+    width: 800px;
+    margin: auto;
+}
+
+.nav {
+    width: 800px;
+    margin: auto;
+    padding: 35px 5px 5px 5px;
+}
+
+section {
+    width: 800px;
     margin: auto;
 }
 
@@ -42,9 +54,8 @@ a {
 }
 
 a:hover {
-    background-color: #270d52;
-    width:40px;
-    height:40px;
+    padding: 35px 5px 5px 5px;
+    background-color: #a0fcaf;
 }
 
 input {
