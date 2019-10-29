@@ -27,7 +27,7 @@ nav {
 .nav {
     width: 800px;
     margin: auto;
-    padding: 35px 5px 5px 5px;
+    padding: 33px 5px 2px 5px;
 }
 
 section {
@@ -54,21 +54,51 @@ a {
 }
 
 a:hover {
-    padding: 35px 5px 5px 5px;
+    padding: 33px 5px 2px 5px;
     background-color: #a0fcaf;
 }
 
-input {
-    background-color: #c7c7c7;
-    width: 300px;
+h1 {
+    font-size: 2em;
+}
+
+#h1-contact {
+    text-align: left;
+    margin-left: 150px;
+    color: #1c6345;
 }
 
 .contact {
-    margin: auto;
+    position: static;
+    text-align: left;
+    margin-left: 150px;
+    color: #c3c4c7;
+}
+
+.contact-field-small {
     font-size: 18px;
     width: 305px;
     text-align: left;
     color: white;
-    padding: 5px;
-    background-color: #a8a7a7;
+    padding: 5px 5px 5px 10px;
+    background-color: #cacbce;
+}
+
+.contact-field-big {
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 450px;
+    text-align: left;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    background-color: #cacbce;
+    border: none;
+}
+
+button {
+    font-size: 18px;
+    color: white;
+    background-color: #cacbce;
+    border: none;
+    padding: 5px 10px 5px 10px;
 }
