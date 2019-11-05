@@ -33,6 +33,7 @@ nav {
 section {
     width: 800px;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 a {
@@ -60,12 +61,15 @@ a:hover {
 
 h1 {
     font-size: 2em;
+    padding: 20px 0px 0px 0px;
 }
 
 #h1-contact {
+    font-size: 2em;
     text-align: left;
     margin-left: 150px;
     color: #1c6345;
+    padding: 26px 0px 0px 0px;
 }
 
 .contact {
@@ -82,6 +86,7 @@ h1 {
     text-align: left;
     color: white;
     padding: 5px 5px 5px 10px;
+    margin: 15px 0px 15px 0px;
     background-color: #cacbce;
 }
 
@@ -102,4 +107,15 @@ button {
     background-color: #cacbce;
     border: none;
     padding: 5px 10px 5px 10px;
+    margin: 15px 0px 15px 0px;
+}
+
+.img_small {
+    margin: 0px 20px;
+
+}
+
+pre {
+    font-family: sans-serif;
+    text-align: center;
 }
