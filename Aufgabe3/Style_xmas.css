@@ -1,0 +1,32 @@
+body {
+    background-image: url(bg3.jpg);
+    background-repeat: repeat-y;
+}
+
+.btn {
+    position: absolute;
+    width: 200px;
+    left: 30rem;
+    top: 20%;
+}
+
+button {
+    font-size: 25px;
+    background-color: #f0c4aa;
+    border-style: groove; 
+    border-color: #b3091f;
+    border-width: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+a {
+   color: #27461b;
+   text-decoration-line: none;
+}
+
+a:hover {
+    background-color: #fd888896;
+    padding: 5px 0px;
+
+}
