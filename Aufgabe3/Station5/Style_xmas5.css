@@ -1,0 +1,88 @@
+body {
+    background-image: url(bg.png);
+    text-align: center;
+    color: white;
+}
+
+.card {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: absolute;
+    font-size: 28px;
+    top: 10%;
+    left: 10%;
+}
+
+pre {
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    top: 30%;
+    left: 10%;
+}
+
+.formular {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 330px;
+}
+
+input[type=text] {
+        padding: 2px 5px;
+        margin: 3px 0px 15px 0px;
+        border: none;
+        background-color: #cacbce;
+        color: black;
+ }
+
+textarea {
+    background-color: #cacbce;
+    width: 300px;
+}
+
+input[type=radio] {
+    position: absolute;
+    top: 170px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.abhaken1 {
+    left: 0%;
+}
+
+.yes {
+    position: absolute;
+    top: 97%;
+    left: 10%
+}
+
+.abhaken2 {
+    left: 100px;
+}
+
+.no {
+    position: absolute;
+    top: 97%;
+    left: 40%;
+}
+
+button {
+    position: absolute;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: #cacbce;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin: 15px 0px 15px 0px;
+    top: 120%
+}

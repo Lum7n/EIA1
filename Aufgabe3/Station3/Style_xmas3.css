@@ -15,26 +15,41 @@ body {
 h1 {
     position: absolute;
     font-size: 28px;
-    top: 15%;
+    top: 10%;
     left: 10%;
 }
 
-pre {
+#h1-2 {
     position: absolute;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 28px;
+    top: 18%;
+    left: 10%;
+}
+
+#star1 {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+#star2 {
+    position: absolute;
     top: 30%;
-    left: 10%;
+    left: 55%;
 }
 
-.twig {
+#star3 {
     position: absolute;
-    top: -16%;
-    left: -11%;
+    top: 65%;
+    left: 35%;
 }
 
-.pinguin {
+#star4 {
     position: absolute;
-    bottom: -5%;
-    right: -5%;
+    top: 55%;
+    left: 70%;
+}
+
+.stars:hover {
+    background-image: url(stern_hover.png);
 }
