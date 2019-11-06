@@ -1,0 +1,29 @@
+body {
+    background-image: url(bg.png);
+    text-align: center;
+    color: white;
+}
+
+.card {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+iframe {
+    position: absolute;
+    top: 12%;
+    left: 6%;
+    z-index: 1;
+}
+
+.schleife {
+    position: absolute;
+    top: 67%;
+    left: 61%;
+    z-index: 2;
+}
+
