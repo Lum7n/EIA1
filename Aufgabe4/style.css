@@ -1,5 +1,5 @@
 body {
-    background-image: url(bg.jpg);
+    background-image: url(bg_v3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #003e91;
@@ -15,16 +15,16 @@ body {
 
 .title {
     position: relative;
-    padding: 2%;
-    margin: 7% 0%;
+    padding: 0%;
+    margin: 18% 0% 10% 0%;
 }
 
 .welcome {
     position: absolute;
-    font-size: 4.6vw;
+    font-size: 5.4vw;
     font-weight: 400;
-    top: 25%;
-    left: 21%
+    top: 19%;
+    left: 15.5%
 
 }
 
@@ -43,7 +43,7 @@ body {
 
 a {
     position: absolute;
-    font-size: 5vw;
+    font-size: 6.5vw;
     font-weight: 700;
     color: white;
     text-decoration: none;
@@ -67,9 +67,48 @@ a:hover {
         font-size: 4vw;
         font-weight: 700;
         color: #161644;
-        margin-top: 8%;
+        margin-top: 9%;
         background-color: white;
         padding: 1% 0%;
         opacity: 0.5;
     }
+}
+
+/* ----------- Fragen ----------- */
+
+.quest {
+    position: absolute;
+    font-size: 5.4vw;
+    font-weight: 400;
+    top: 19%;
+    left: 15.5%
+}
+
+.answer {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 48%;
+}
+
+.answer:hover {
+    background-image: url(answer_hover.png);
+}
+
+a {
+    position: absolute;
+    font-size: 6.5vw;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #161644;
+}
+
+.br {
+    margin: 4%
 }
