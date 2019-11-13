@@ -2,6 +2,7 @@ body {
     background-image: url(bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #003e91;
 }
 
 .quiz {
@@ -15,7 +16,7 @@ body {
 .title {
     position: relative;
     padding: 2%;
-    margin: 2% 0% 7% 0%;
+    margin: 7% 0%;
 }
 
 .welcome {
