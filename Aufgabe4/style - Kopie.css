@@ -94,10 +94,10 @@ a:hover {
 
 .quest {
     position: absolute;
-    font-size: 4vw;
+    font-size: 5.4vw;
     font-weight: 400;
-    top: 15%;
-    left: 25.5%
+    top: 19%;
+    left: 15.5%
 }
 
 .answer {
@@ -115,7 +115,7 @@ a:hover {
 
 a {
     position: absolute;
-    font-size: 5vw;
+    font-size: 6.5vw;
     font-weight: 700;
     color: white;
     text-decoration: none;
@@ -129,32 +129,9 @@ a:hover {
     margin: 4%
 }
 
-.icon {
-    position: relative;
-    margin: 8% 0%;
-}
+/* ----------- Sorry ----------- */
 
-.ico_5050 {
-    position: relative;
-    left: 24%;
-    padding: 4% 1% 0% 1%;
-}
-
-.ico_tel {
-    position: relative;
-    left: 39%;
-    padding: 4% 1% 0% 1%;
-}
-
-.ico_5050:hover, .ico_tel:hover {
-    padding: 4% 1% 0% 1%;
-    background-color: #9fe4ff;
-    border-radius: 100%;
-}
-
-/* ----------- sorry + won ----------- */
-
-.sorry, .done {
+.sorry {
     position: relative;
     font-size: 4vw;
     font-weight: 500;
@@ -172,12 +149,3 @@ a:hover {
     top: 19%;
     left: 22.8%
 }
-
-.won {
-    position: absolute;
-    font-size: 5.4vw;
-    font-weight: 600;
-    top: 19%;
-    left: 26%
-}
-
