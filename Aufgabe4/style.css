@@ -100,7 +100,7 @@ a:hover {
     left: 25.5%
 }
 
-.answer {
+.answer_size1 {
     position: relative;
     background: url(answer.png);
     background-position: center;
@@ -109,7 +109,100 @@ a:hover {
     padding: 5% 48%;
 }
 
-.answer:hover {
+.answer_size2 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 26%;
+}
+
+.answer_size3 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 29%;
+}
+
+.answer_size4 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 33%;
+}
+
+.answer_size5 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 28%;
+}
+
+.answer_size6 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 43%;
+}
+
+.answer_size7 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 40%;
+}
+
+.answer_size8 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 41%;
+}
+
+.answer_size9 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 36%;
+}
+
+.answer_size10 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 38%;
+}
+
+.answer_size11 {
+    position: relative;
+    background: url(answer.png);
+    background-position: center;
+    background-size: 105% 70%;
+    background-repeat: no-repeat;
+    padding: 5% 42%;
+}
+
+.answer_size1:hover, .answer_size2:hover, .answer_size3:hover,
+.answer_size4:hover, .answer_size5:hover, .answer_size6:hover,
+.answer_size7:hover, .answer_size8:hover, .answer_size9:hover,
+.answer_size10:hover, .answer_size11:hover {
     background-image: url(answer_hover.png);
 }
 
@@ -137,17 +230,17 @@ a:hover {
 .ico_5050 {
     position: relative;
     left: 24%;
-    padding: 4% 1% 0% 1%;
+    padding: 5% 1% 0% 1%;
 }
 
 .ico_tel {
     position: relative;
     left: 39%;
-    padding: 4% 1% 0% 1%;
+    padding: 5% 1% 0% 1%;
 }
 
 .ico_5050:hover, .ico_tel:hover {
-    padding: 4% 1% 0% 1%;
+    padding: 5% 1% 0% 1%;
     background-color: #9fe4ff;
     border-radius: 100%;
 }
