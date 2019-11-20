@@ -1,36 +1,126 @@
-body {
-    background-image: url(bg_v2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #003e91;
+@media screen and (max-width: 1000px){
+
+    body {
+        background-image: url('bg_v2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #003e91;
+        background-position: center;
+        width:100%;
+        height:100%;
+        margin: 0;
+    }
+    
+    a {
+        font-size: 4.5vw;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #161644;
+    }
+    
+    p {
+        font-size: 4vw;
+        font-weight: 400;
+    }
+    
+    .welcome {
+        font-size: 5vw;
+        font-weight: 400;
+        padding: 4% 0%;
+    }
+
+    .Einzeiler {
+        font-size: 5vw;
+        font-weight: 400;
+    }
+
+    .sorry, .done {
+        font-size: 4vw;
+        font-weight: 500;
+        color: #161644;
+        margin: 9% 0%;
+        background-color: white;
+        padding: 1% 0%;
+        opacity: 0.4;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    body {
+        background-image: url('bg_v2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #003e91;
+        background-position: center;
+        width:1000px;
+        height:100%;
+        margin: auto;
+    }
+
+    a {
+        font-size: 45px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #161644;
+    }
+
+    p {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .welcome {
+        font-size: 50px;
+        font-weight: 400;
+        padding: 4% 0%;
+    }
+    
+    .Einzeiler {
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .sorry, .done {
+        font-size: 40px;
+        font-weight: 500;
+        color: #161644;
+        margin: 9% 0%;
+        background-color: white;
+        padding: 1% 0%;
+        opacity: 0.4;
+    }
 }
 
 .quiz {
-    position: relative;
     text-align: center;
-    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
 }
 
+
 /* ----------- Index ----------- */
 
 .title {
-    position: relative;
-    padding: 0%;
-    margin: 18% 0% 10% 0%;
-}
-
-.welcome {
-    position: absolute;
-    font-size: 5.4vw;
-    font-weight: 400;
-    top: 19%;
-    left: 15.5%
+    height: 230px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-image: url(question.png);
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
 .start {
-    position: relative;
     background: url(start.png);
     background-position: center;
     background-size: 100%;
@@ -42,26 +132,14 @@ body {
     background-image: url(start_hover.png);
 }
 
-a {
-    position: absolute;
-    font-size: 6.5vw;
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
-}
 
-a:hover {
-    color: #161644;
-}
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 
     .desktop {
         display: none;
     }
     
     .smartp {
-        position: relative;
         font-size: 4vw;
         font-weight: 500;
         color: #161644;
@@ -72,11 +150,10 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 700px){
 
     .desktop {
-        position: relative;
-        font-size: 4vw;
+        font-size: 30px;
         font-weight: 700;
         color: #161644;
         margin: 9% 0%;
@@ -84,7 +161,7 @@ a:hover {
         padding: 1% 0%;
         opacity: 0.5;
     }
-
+    
     .smartp {
         display: none;
     }
@@ -92,16 +169,7 @@ a:hover {
 
 /* ----------- Fragen ----------- */
 
-.quest {
-    position: absolute;
-    font-size: 4vw;
-    font-weight: 400;
-    top: 15%;
-    left: 25.5%
-}
-
 .answer_size1 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -110,7 +178,6 @@ a:hover {
 }
 
 .answer_size2 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -119,7 +186,6 @@ a:hover {
 }
 
 .answer_size3 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -128,7 +194,6 @@ a:hover {
 }
 
 .answer_size4 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -137,7 +202,6 @@ a:hover {
 }
 
 .answer_size5 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -146,7 +210,6 @@ a:hover {
 }
 
 .answer_size6 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -155,7 +218,6 @@ a:hover {
 }
 
 .answer_size7 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -164,7 +226,6 @@ a:hover {
 }
 
 .answer_size8 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -173,7 +234,6 @@ a:hover {
 }
 
 .answer_size9 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -182,7 +242,6 @@ a:hover {
 }
 
 .answer_size10 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -191,7 +250,6 @@ a:hover {
 }
 
 .answer_size11 {
-    position: relative;
     background: url(answer.png);
     background-position: center;
     background-size: 105% 70%;
@@ -206,71 +264,53 @@ a:hover {
     background-image: url(answer_hover.png);
 }
 
-a {
-    position: absolute;
-    font-size: 5vw;
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #161644;
-}
-
 .br {
     margin: 4%
 }
 
 .icon {
-    position: relative;
     margin: 8% 0%;
 }
 
 .ico_5050 {
-    position: relative;
-    left: 24%;
-    padding: 5% 1% 0% 1%;
+    background: url(ico_5050.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 6%;
 }
 
 .ico_tel {
-    position: relative;
-    left: 39%;
-    padding: 5% 1% 0% 1%;
+    background: url(ico_tel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 6%;
 }
 
-.ico_5050:hover, .ico_tel:hover {
-    padding: 5% 1% 0% 1%;
-    background-color: #9fe4ff;
-    border-radius: 100%;
+.ico_5050:hover {
+    background-image: url(ico_5050_hover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ico_tel:hover {
+    background-image: url(ico_tel_hover.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* ----------- sorry + won ----------- */
 
-.sorry, .done {
-    position: relative;
-    font-size: 4vw;
-    font-weight: 500;
-    color: #161644;
-    margin: 9% 0%;
-    background-color: white;
-    padding: 1% 0%;
-    opacity: 0.4;
-}
-
 .wrong {
-    position: absolute;
-    font-size: 5.4vw;
+    font-size: 5vw;
     font-weight: 600;
-    top: 19%;
-    left: 22.8%
+    padding: 4% 0%;
 }
 
 .won {
-    position: absolute;
-    font-size: 5.4vw;
+    font-size: 5vw;
     font-weight: 600;
-    top: 19%;
-    left: 26%
+    padding: 4% 0%;
 }
 
