@@ -34,6 +34,10 @@ function start_beat() {
         index++;
         if (index > 4) index = 0;
     }
+    document.querySelector("#stop").addEventListener("mousedown", stop_beat);
+    function stop_beat(){
+        clearInterval (time);
+    }
 }
 
 

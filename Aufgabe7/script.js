@@ -28,5 +28,9 @@ function start_beat() {
         if (index > 4)
             index = 0;
     }
+    document.querySelector("#stop").addEventListener("mousedown", stop_beat);
+    function stop_beat() {
+        clearInterval(time);
+    }
 }
 //# sourceMappingURL=script.js.map
