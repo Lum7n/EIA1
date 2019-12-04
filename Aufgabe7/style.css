@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    background-color: #0d0f0e;
+}
+
+button {
+    padding: 15%;
+    margin: 0.5% 0.2%;
+    top: 20px;
+    border-radius: 6px;
+    border-width: 3px;
+}
+
+#btn1, #btn2, #btn3 {
+    background-color: #896ed3;
+    box-shadow: 0px 0px 30px 10px #5d2ce2ad;
+    border-color: #9a85d4;
+}
+
+#btn1:active, #btn2:active, #btn3:active {
+    background-color: #6c40e4;
+    box-shadow: 0px 0px 30px 10px #5d2ce2ad;
+}
+
+#btn4, #btn5, #btn6, #btn7 {
+    background-color: #d64b6e;
+    box-shadow: 0px 0px 30px 10px #df42699f;
+    border-color: #e06a88;
+}
+
+#btn4:active, #btn5:active, #btn6:active, #btn7:active {
+    background-color: #db2351;
+    box-shadow: 0px 0px 30px 10px #d8315b9f;
+}
+
+#btn8, #btn9 {
+    background-color: #e9614f;
+    box-shadow: 0px 0px 30px 10px #f74831ad;
+    border-color: #e27d70;
+}
+
+#btn8:active, #btn9:active {
+background-color: #ee4a34;
+box-shadow: 0px 0px 30px 10px #df3b26ad;
+}
+
+
+@media screen and (max-width: 650px){
+
+   .frame {
+        background-color: #000000;
+        background-position: center;
+        width:80%;
+        margin: 10% 8% 5% 8%;
+        padding: 4% 2% 25% 2%;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 650px){
+
+    .screenBig {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .frame {
+        margin: 2%;
+        background-color: #000000; 
+        width:500px;
+        padding: 25px 15px 150px 15px;
+    }
+}
+
+.play_btn {
+    box-shadow: 0px 0px 30px 2px cornsilk;
+}
