@@ -1,0 +1,78 @@
+body {
+    background-color: #d7d7d7;
+    text-align: center;
+}
+
+#heading {
+    position: relative;
+    font-family: 'ArialMT', 'Arial';
+    font-size: 50px;
+    color: #333333;
+}    
+
+#counter {
+    position: relative;
+    font-family: 'ArialMT', 'Arial';
+    font-size: 20px;
+    bottom: 50px;
+    color: #AAAAAA;
+}
+
+.newElement {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+input {
+    position: relative;
+    left: 30px;
+    width: 450px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #d16666;
+}
+
+::placeholder {
+    color: #AAAAAA;
+    opacity: 1; /* für Firefox */
+}
+
+#add {
+    position: relative;
+    left: 25px;
+    background-color: #d16666;
+    border-color: #8d4747;
+    outline: none;
+}
+
+.list {
+    position: absolute;
+    left: 50%;
+    top: 510px;
+    transform: translate(-50%, -50%);
+    height:500px;
+    width:600px;
+    display:flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.number {
+    position: relative;
+    top: 480px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    margin: 2px;
+    font-family: 'ArialMT', 'Arial';
+    font-size: 20px;
+    color: #AAAAAA;
+}
