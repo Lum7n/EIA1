@@ -1,0 +1,156 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/Lum7n/Lum7n.github.io/master/Kartenspiel/bg_none_darker_2.png);
+    background-color: #13421a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+main {
+    background-color: #87c031bd;
+    clear: both;
+    width: 90%;
+    margin-top: 1.3%;
+    margin-left: 5%;
+    height: 70%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+p {
+    color: #000000;
+    padding: 0.5em;
+}
+
+#computer, #player {
+    clear: both;
+    background-color: #c98e8e;
+    margin-left: 4.3%;
+    padding: 10px;
+    height: 180px;
+    width: 90%;
+    border-radius: 5px;
+    border-right: 0.2em solid #a05757;
+    border-bottom: 0.2em solid #a05757;
+}
+
+#player {
+    clear: both;
+    background-color: #dfbdb3;
+    margin-left: 4.3%;
+    padding: 10px;
+    height: 170px;
+    width: 90%;
+    border-radius: 5px;
+    border-right: 0.2em solid #a36858;
+    border-bottom: 0.2em solid #a36858;
+}
+
+#stack {
+    float: left;
+    width: 112px;
+    height: 157px;
+    background-color: #88466c;
+    border: 3px solid #6917ac;
+    border-radius: 11px;
+    margin: 2%;
+    margin-left: 5%;
+}
+
+#currentMove {
+    float: left;
+    width: 270px;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-left: 5%;
+    margin-top: 7%;
+    
+}
+
+#active {
+    float: left;
+    width: 112px;
+    height: 157px;
+    background-color: #856451;
+    border-radius: 11px;
+    border: 3px solid #da8751;
+    margin: 2%;
+}
+
+#gamestart {
+    float: left;
+    font-size: 1.2em;
+    background-color: #b4637b;
+    color: rgb(255, 255, 255);
+    padding: 0.5%;
+    margin: 6.5%;
+    margin-left: 15%;
+}
+
+.card {
+    float: left;
+    width: 100px;
+    height: 145px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+}
+
+.backside img {
+    width: 100px;
+    height:145px;
+}
+
+#player .card, #computer .card {
+    margin-left: 1%;
+}
+
+#active .card, #stack .card {
+    position: absolute;
+}
+
+.blue {
+    background-image: url(https://raw.githubusercontent.com/Lum7n/Lum7n.github.io/master/Kartenspiel/Flügel.png);
+}
+.black {
+    background-image: url(https://raw.githubusercontent.com/Lum7n/Lum7n.github.io/master/Kartenspiel/Schirm.png);
+}
+.red {
+    background-image: url(https://raw.githubusercontent.com/Lum7n/Lum7n.github.io/master/Kartenspiel/Schleife.png);
+}
+.yellow {
+    background-image: url(https://raw.githubusercontent.com/Lum7n/Lum7n.github.io/master/Kartenspiel/Leave.png);
+}
+
+.card p {
+    float: left;
+}
+
+.topleft {
+    color: #000000;
+    margin-top: 0.2em;
+    margin-left: 0.4em;
+    font-weight: bold;
+}
+
+.bottomright {
+    transform: rotate(180deg);
+    color: #000000;
+    margin-left: 4.25em;
+    margin-top: 3.4em;
+    font-weight: bold
+}
+
+#computer .cardtransition {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    margin-top: 2em;
+}
+
+footer {
+    width: 100vw;
+    background-color: #bdec77c5;
+    width: 90%;
+    margin-left: 5%;
+}
